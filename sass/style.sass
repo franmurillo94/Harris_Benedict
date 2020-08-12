@@ -1,0 +1,187 @@
+@import variables
+
+*
+    margin: 0
+    padding: 0
+    //border: 1px solid red
+    box-sizing: border-box
+    outline: none
+    font-family: sans-serif
+body
+    background: url(../img/abstracto-azul.jpg) no-repeat center center fixed
+    background-size: cover
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    color: white
+header
+    margin: 5vh 0 5vh 0
+    display: flex
+    justify-content: center
+    align-items: center
+    h1 
+        padding: 25px 10% 20px 10%
+        border-radius: 150px
+        background: $back
+        box-shadow: 0 0 10px 5px $shadow
+        font-size: calc(1em + 1vw)
+nav
+    ul 
+        list-style: none
+        display: flex
+        justify-content: space-around
+        background: $back
+        margin: 15px 0 15px 0
+        li 
+            padding: 20px 40px 20px 40px
+            a 
+                text-decoration: none
+                color: inherit
+            &:hover
+                box-shadow: 0 0 10px 5px $shadow
+                color: $hover
+main
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 25px
+    article
+        padding: 30px 50px 10px 50px
+        box-shadow: 0 0 10px $shadow
+        width: 80%
+        h3 
+            text-align: center
+            padding: 15px 10px 10px 10px
+            background: $back
+        #error
+            margin-top: 20px
+            margin-bottom: 15px
+            padding: 1vh
+            color: $error
+            display: flex
+            justify-content: center
+            align-items: center
+        .error
+            box-shadow: 0 0 10px $error
+        form
+            display: flex
+            flex-direction: column
+            div
+                display: flex
+                padding: 10px
+                justify-content: center
+                label
+                    padding: 0 25px 0 10px
+            & .number
+                justify-content: center
+                input 
+                    background: transparent
+                    color: white
+                    box-shadow: 0 0 10px $hover
+                    border: 0
+                    //border-bottom: 3px solid $font
+                    text-align: center
+                    font-size: 17px
+                    margin-left: 4vh
+                label
+                    width: 70px
+                    padding: 5px
+                    text-align: center
+                    border-radius: 50px
+                    box-shadow: 0 0 10px $hover
+                    margin-right: 4vh
+            & .gender
+                display: flex
+                justify-content: center
+                //border: solid 2px red
+                font-size: 35px
+                div
+                    label
+                        //border: solid 2px blue 
+                        height: 80px
+                        width: 100px
+                        border-radius: 15px
+                        color: $font
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        box-shadow: 0 0 2px $hover
+                        .fas
+                            font-size: 50px
+                            //border: 1px solid blue
+                            margin-left: 10px
+                    input
+                        appearance: none
+                        -webkit-appearance: none
+                        visibility: hidden
+                    & :checked ~ label
+                        background-color: $hover
+                        color: white
+                        box-shadow: 0 0 4px $shadow
+                    & :hover ~ label
+                        background-color: $font
+            & .activity
+                display: flex
+                flex-direction: column
+                align-items: center
+                label
+                    padding: 2vh
+                select 
+                    background: transparent
+                    color: white
+                    border: 0
+                    box-shadow: 0 0 10px $hover
+                    font-size: 17px             
+                    width: 60vw
+                    height: 8vh
+                    option 
+                        background: black
+                        color: white
+                        padding: 10px
+                        border-bottom: 3px solid $font
+            .button
+                margin-top: 7px
+                button
+                    border: none
+                    color: white
+                    padding: 15px 32px
+                    text-align: center
+                    text-decoration: none
+                    font-size: 16px
+                    background-color: #008CBA
+                    border-radius: 20px
+                & :hover
+                    background-color: $hover
+                    box-shadow: 0 0 10px $shadow
+                & :active
+                    background-color: $back
+        .result
+            display: flex
+            justify-content: center
+            align-items: center
+            font-size: 30px
+            //border: 2px solid red
+            height: 60px
+            margin-bottom: 10px
+            margin-top: 10px
+            #bmi 
+                text-align: center
+                padding: 10px
+                width: 180px
+                box-shadow: 0 0 10px $error
+                //border: 2px solid red
+footer
+    padding: 20px
+    text-align: center
+    //box-shadow: 0 0 10px $hover
+    background: $back
+    
+
+    
+                        
+    
+        
+
+
+
+
