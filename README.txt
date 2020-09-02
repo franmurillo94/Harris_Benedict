@@ -19,7 +19,7 @@ Lo realizado:
 2 Javascript
 	2.1 se trajo los valores de los input para asi poder realizar los calculos
 	2.2 verificacion de valores:
-		NUMEROS no acepta numeros negativos, tampoco extraordinarios posibles para que en caso de notarse un error como un numero negativo 
+		NUMEROS no acepta numeros negativos, tampoco extraordinarios posibles 
 			Sale en pantalla la notificacion del campo incorrecto o vacio
 3 Sass
 	3.1 variables para los colores
