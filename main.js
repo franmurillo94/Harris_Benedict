@@ -72,7 +72,7 @@ function calculateBMI(){
         } 
         error.classList.remove("error");
         error.innerHTML = "";
-        bmiText.innerHTML = bmi.toFixed(2);
+        bmiText.innerHTML = bmi.toFixed(2) + " kcal";
     }
 }
     
